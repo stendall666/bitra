@@ -1,0 +1,28 @@
+# Битрикс - системные папки
+/bitrix/
+/upload/
+/images/
+/bitrix/backup/
+/bitrix/cache/
+/bitrix/managed_cache/
+/bitrix/stack_cache/
+/bitrix/html_pages/
+
+# Конфигурационные файлы с паролями
+.settings.php
+dbconn.php
+.env
+/bitrix/php_interface/dbconn.php
+/bitrix/php_interface/dbconn.php
+
+# Временные и системные файлы
+*.log
+*.tmp
+*.tar.gz
+Thumbs.db
+.DS_Store
+
+# Исключаем всё, кроме нужных папок
+/*
+!/local/
+!/newRestMethod/
